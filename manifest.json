@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Get back to work!",
+  "version": "0.1.0",
+  "description": "Will Sentence wants you to get back to work.",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon24.png",
+    "48": "images/icon32.png",
+    "128": "images/mushroom.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "32": "images/icon24.png",
+      "48": "images/icon32.png",
+      "128": "images/mushroom.png"
+    }
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
